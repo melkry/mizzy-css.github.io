@@ -1,0 +1,41 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: WhiteSmoke;
+    text-align: center;
+}
+
+header {
+  background-image: url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701456756.jpg")
+}
+
+h1 {
+  color: white;
+  padding: 50px 100px;
+  font-family: Helvetica, sans-serif;
+}
+
+h2 {
+  background-color: PowderBlue;
+  font-family: Helvetica, sans-serif;
+}
+
+.code {
+    font-family: monospace;
+    background-color: white;
+}
+
+table {
+  background-color: Grey;
+}
+
+th {
+  font-weight: bold;
+  color: white;
+  background-color: SteelBlue;
+}
+
+td {
+  background-color: LavenderBlush;
+}
