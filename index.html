@@ -1,9 +1,149 @@
+<!DOCTYPE html>
 <html>
- 
-<body>
-  <h1>MELISSA</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
- 
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <header>
+    <h1>CSS Selectors and Properties</h1>
+  </header>
+  <body>
+  <div id="selectors">
+  <h2>Selectors</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Selector</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="code">type { }</td>
+        <td>Type Selector</td>
+        <td>Selects a specified HTML tag/element</td>
+      </tr>
+      <tr>
+        <td class="code">.class { }</td>
+        <td>Class Selector</td>
+        <td>Selects a specified class (class="class name")</td>
+      </tr>
+      <tr>
+        <td class="code">#id { }</td>
+        <td>id Selector</td>
+        <td>Selects a specified id (id="id name")</td>
+      </tr>
+      <tr>
+        <td class="code">type[attribute] { }</td>
+        <td>Attribute Selector</td>
+        <td>Selects elements based on the presence or value of a given attribute.</td>
+      </tr>
+      <tr>
+        <td class="code">type descendant { }</td>
+        <td>Descendant combinator</td>
+        <td>Selects only elements which are a descendent of a specified type</td>
+      </tr>
+      <tr>
+        <td class="code">* { }</td>
+        <td>Universal selector</td>
+        <td>Selects everything in the document</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  <div id="properties">
+  <h2>Properties</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Property</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="code">background-color: color;</td>
+        <td>Background Color</td>
+        <td>Sets the background color of an element.</td>
+      </tr>
+      <tr>
+        <td class="code">background-image: url("");</td>
+        <td>Background Image</td>
+        <td>Sets one or more background images on an element.</td>
+      </tr>
+      <tr>
+        <td class="code">border: width style color;</td>
+        <td>Border</td>
+        <td>Sets an element's border. It sets the values of border-width, border-style, and border-color.</td>
+      </tr>
+      <tr>
+        <td class="code">color: color;</td>
+        <td>Color</td>
+        <td>Sets the colour of the text within an element.</td>
+      </tr>
+      <tr>
+        <td class="code">display: displaytype;</td>
+        <td>Display</td>
+        <td>Sets whether an element is treated as a block or inline element and the layout used for its children, such as flow layout, grid or flex.</td>
+      </tr>
+      <tr>
+        <td class="code">float: none/left/right;</td>
+        <td>Float</td>
+        <td>Places an element on the left or right side of its container, allowing text and inline elements to wrap around it. The element is removed from the normal flow of the page, though still remaining a part of the flow</td>
+      </tr>
+      <tr>
+        <td class="code">font-family: Font, "Font", serif/sans-serif</td>
+        <td>Font Family</td>
+        <td>Specifies a prioritized list of one or more font family names and/or generic family names for the selected element.</td>
+      </tr>
+      <tr>
+        <td class="code">font-size: px; font-weight: weight;</td>
+        <td>Font Size & Font Weight</td>
+        <td>Sets the font size in px or the weight (bold, 100-900)</td>
+      </tr>
+      <tr>
+        <td class="code">height: px; width: px;</td>
+        <td>Height and Width</td>
+        <td>Sets the height and width of the element, default 100px</td>
+      </tr>
+      <tr>
+        <td class="code">margin: top right bottom left; or vertical horizontal;</td>
+        <td>Margin</td>
+        <td>Sets the margin area on all four sides of an element</td>
+      </tr>
+      <tr>
+        <td class="code">padding: top right bottom left; or vertical horizontal;</td>
+        <td>Padding</td>
+        <td>Sets the padding area on all four sides of an element</td>
+      </tr>
+      <tr>
+        <td class="code">position: type;</td>
+        <td>Position</td>
+        <td>Sets how an element is positioned in a document. Can be static, relative, absolute, or sticky. The top, right, bottom, and left properties determine the final location of positioned elements.</td>
+      </tr>
+      <tr>
+        <td class="code">text-align: alignment;</td>
+        <td>Text align</td>
+        <td>Sets the horizontal alignment of the content inside a block element or table-cell box. This means it works like vertical-align but in the horizontal direction.</td>
+      </tr>
+      <tr>
+        <td class="code">visibility: hidden or show;</td>
+        <td>Visibility</td>
+        <td>Shows or hides an element without changing the layout of a document.</td>
+      </tr>
+      <tr>
+        <td class="code">z-index: value;</td>
+        <td>Z-index</td>
+        <td>Sets the z-order of a positioned element and its descendants or flex items. Overlapping elements with a larger z-index cover those with a smaller one.</td>
+      </tr>
+      <tr>
+        <td class="code">opacity: value;</td>
+        <td>Opacity</td>
+        <td>Sets the transparency for an element</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  </body>
 </html>
